@@ -32,9 +32,9 @@ Submitted to: Living Machines 2023
 ## Reproducing the Figures using GANGLIA.py
 1. Edit line 117 (exportDir) to the appropriate export dirctory
 2. Comment in/out the appropriate connectivity network based on desired output. (Lines 151 - 303)
-  - For the half-center oscillator, lines 167-170
-  - For the user-designed 9-cell network, lines 232-243
-  - For the rat single limb joint control network, lines 185-225
-  - For the boolean network of _Aplysia_ feeding, lines 257-299
+    - For the half-center oscillator, lines 167-170
+    - For the user-designed 9-cell network, lines 232-243
+    - For the rat single limb joint control network, lines 185-225
+    - For the boolean network of _Aplysia_ feeding, lines 257-299
 3. Run GANGLIA.py
 
