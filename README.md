@@ -1,6 +1,8 @@
 # GANGLIA
 Generation of Automatic Neuron Graph-Like Interconnected Arrangements (GANGLIA) for designing customized neuron circuit patterns
 
+[![DOI](https://zenodo.org/badge/622026352.svg)](https://zenodo.org/badge/latestdoi/622026352)
+
 Ashlee S. Liao, Yongjie Jessica Zhang, Victoria A. Webster-Wood
 GANGLIA: A tool for designing customized neuron circuit patterns
 Submitted to: Living Machines 2023
