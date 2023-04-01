@@ -29,7 +29,7 @@ Submitted to: Living Machines 2023
 - NOTE: When installing on a new Windows 11 machine - it seems that matplotlib threw an error for importing the library - it is related to Pillow. This was resolved by upgrading pillow (https://pillow.readthedocs.io/en/stable/)
   - conda upgrade Pillow
 
-## Reproducing the Figures using GANGLIA.py
+## Reproducing the Outputs using GANGLIA.py
 1. Edit line 117 (exportDir) to the appropriate export dirctory
 2. Comment in/out the appropriate connectivity network based on desired output. (Lines 151 - 303)
     - For the half-center oscillator, lines 167-170
