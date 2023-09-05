@@ -4,8 +4,7 @@ Generation of Automatic Neuron Graph-Like Interconnected Arrangements (GANGLIA) 
 [![DOI](https://zenodo.org/badge/622026352.svg)](https://zenodo.org/badge/latestdoi/622026352)
 
 Ashlee S. Liao, Yongjie Jessica Zhang, Victoria A. Webster-Wood
-GANGLIA: A tool for designing customized neuron circuit patterns
-Submitted to: Living Machines 2023
+Liao, A.S., Zhang, Y.J., Webster-Wood, V.A. (2023). GANGLIA: A Tool for Designing Customized Neuron Circuit Patterns. In: Meder, F., Hunt, A., Margheri, L., Mura, A., Mazzolai, B. (eds) Biomimetic and Biohybrid Systems. Living Machines 2023. Lecture Notes in Computer Science(), vol 14158. Springer, Cham. https://doi.org/10.1007/978-3-031-39504-8_14
 
 ## Table of Contents
 * [Programs Used for Developing and Running GANGLIA](#programs-used-for-developing-and-running-ganglia)
@@ -59,4 +58,30 @@ conda upgrade Pillow
     - For the rat single limb joint control network, lines 185-225
     - For the boolean network of _Aplysia_ feeding, lines 257-299
 3. Run GANGLIA.py
+
+## (Work in Progress) GANGLIA - Interactive Python Notebook (GANGLIA.ipynb)
+- Reproducibility
+  - Python 3.11
+  - Use a conda virtual environment to set up the same packages
+  - miniconda (conda 23.7.3)
+  - Windows 11
+  ```
+  conda env create --file condaVENV_GANGLIA_v01.yaml --name virtual_environment_name
+  conda activate virtual_environment_name
+  ```
+  - manual creation (not recommended)
+  ```
+  conda create --name condaVENV_GANGLIA_v01
+  conda activate condaVENV_GANGLIA_v01
+  conda install matplotlib
+  conda install -c conda-forge python-igraph
+  conda install -c conda-forge ezdxf
+  conda install -c conda-forge cadquery
+  conda install -c conda-forge cairosvg
+  conda install ipykernel
+  ```
+
+- Important ongoing changes - GANGLIA.ipynb
+  - Removed the need for jupyter-cadquery as it is unnecessary if already in a Python notebook
+  - split the code into individually runnable sections
 
