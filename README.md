@@ -4,6 +4,7 @@ Generation of Automatic Neuron Graph-Like Interconnected Arrangements (GANGLIA) 
 [![DOI](https://zenodo.org/badge/622026352.svg)](https://zenodo.org/badge/latestdoi/622026352)
 
 Ashlee S. Liao, Yongjie Jessica Zhang, Victoria A. Webster-Wood
+
 Liao, A.S., Zhang, Y.J., Webster-Wood, V.A. (2023). GANGLIA: A Tool for Designing Customized Neuron Circuit Patterns. In: Meder, F., Hunt, A., Margheri, L., Mura, A., Mazzolai, B. (eds) Biomimetic and Biohybrid Systems. Living Machines 2023. Lecture Notes in Computer Science(), vol 14158. Springer, Cham. https://doi.org/10.1007/978-3-031-39504-8_14
 
 ## Table of Contents
@@ -84,4 +85,5 @@ conda upgrade Pillow
 - Important ongoing changes - GANGLIA.ipynb
   - Removed the need for jupyter-cadquery as it is unnecessary if already in a Python notebook
   - split the code into individually runnable sections
+  - created a GUI to replace some hard-coded GANGLIA code bits and for easier user input experience
 
