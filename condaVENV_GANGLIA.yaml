@@ -1,5 +1,6 @@
-name: condaVENV_GANGLIA_v03
+name: condaVENV_GANGLIA_v04
 channels:
+  - plotly
   - conda-forge
   - defaults
 dependencies:
@@ -13,6 +14,7 @@ dependencies:
   - backports=1.0=pyhd8ed1ab_3
   - backports.functools_lru_cache=1.6.5=pyhd8ed1ab_0
   - blas=1.0=mkl
+  - bottleneck=1.3.5=py311h5bb9823_0
   - brotli=1.0.9=h2bbff1b_7
   - brotli-bin=1.0.9=h2bbff1b_7
   - bzip2=1.0.8=he774522_0
@@ -66,6 +68,7 @@ dependencies:
   - hdf5=1.12.2=nompi_h57737ce_101
   - icu=70.1=h0e60522_0
   - idna=3.4=pyhd8ed1ab_0
+  - importlib_resources=6.0.1=pyhd8ed1ab_0
   - intel-openmp=2023.1.0=h59b6b97_46319
   - ipopt=3.14.12=ha9547d1_1
   - ipykernel=6.25.0=py311h746a85d_0
@@ -73,6 +76,8 @@ dependencies:
   - jedi=0.19.0=pyhd8ed1ab_0
   - jpeg=9e=h2bbff1b_1
   - jsoncpp=1.9.5=h2d74725_1
+  - jsonschema=4.19.0=pyhd8ed1ab_1
+  - jsonschema-specifications=2023.7.1=pyhd8ed1ab_0
   - jupyter_client=8.1.0=py311haa95532_0
   - jupyter_core=5.3.0=py311haa95532_0
   - kiwisolver=1.4.4=py311hd77b12b_0
@@ -136,10 +141,12 @@ dependencies:
   - multimethod=1.9.1=pyhd8ed1ab_0
   - mumps-seq=5.2.1=hb3f9cae_11
   - munkres=1.1.4=py_0
+  - nbformat=5.9.2=pyhd8ed1ab_0
   - nest-asyncio=1.5.6=py311haa95532_0
   - nlohmann_json=3.11.2=h39d44d4_0
   - nlopt=2.7.1=py311h6e294a0_3
   - nptyping=2.5.0=pyhd8ed1ab_0
+  - numexpr=2.8.4=py311h1fcbade_1
   - numpy=1.25.2=py311hdab7c0b_0
   - numpy-base=1.25.2=py311hd01c5d8_0
   - occt=7.7.0=h54f5ab0_2
@@ -148,6 +155,7 @@ dependencies:
   - openmp=5.0.0=vc14_1
   - openssl=3.1.2=hcfcfb64_0
   - packaging=23.1=py311haa95532_0
+  - pandas=2.0.3=py311hf62ec03_0
   - parso=0.8.3=pyhd8ed1ab_0
   - pcre=8.45=hd77b12b_0
   - pcre2=10.40=h17e33f8_0
@@ -155,7 +163,9 @@ dependencies:
   - pillow=9.4.0=py311hd77b12b_0
   - pip=23.2.1=py311haa95532_0
   - pixman=0.40.0=h8ffe710_0
+  - pkgutil-resolve-name=1.3.10=pyhd8ed1ab_0
   - platformdirs=3.10.0=pyhd8ed1ab_0
+  - plotly=5.16.1=py_0
   - ply=3.11=py311haa95532_0
   - pooch=1.7.0=pyha770c72_3
   - proj=9.1.1=heca977f_2
@@ -175,15 +185,20 @@ dependencies:
   - pysocks=1.7.1=pyh0701188_6
   - python=3.11.4=he1021f5_0
   - python-dateutil=2.8.2=pyhd3eb1b0_0
+  - python-fastjsonschema=2.18.0=pyhd8ed1ab_0
   - python-igraph=0.10.4=py311h8db4363_0
+  - python-tzdata=2023.3=pyhd3eb1b0_0
   - python_abi=3.11=2_cp311
+  - pytz=2022.7=py311haa95532_0
   - pywin32=305=py311h2bbff1b_0
   - pyzmq=25.1.0=py311hd77b12b_0
   - qt-main=5.15.8=h720456b_6
   - qt-webengine=5.15.9=h5bd16bc_7
   - qtwebkit=5.212=h992fabe_8
   - rapidjson=1.1.0=ha925a31_1002
+  - referencing=0.30.2=pyhd8ed1ab_0
   - requests=2.31.0=pyhd8ed1ab_0
+  - rpds-py=0.10.2=py311hc37eb10_0
   - scipy=1.11.2=py311h37ff6ca_0
   - setuptools=68.0.0=py311haa95532_0
   - simde=0.7.6=h91493d7_0
@@ -195,6 +210,7 @@ dependencies:
   - svt-av1=1.4.1=h63175ca_0
   - tbb=2021.8.0=h59b6b97_0
   - tbb-devel=2021.8.0=h59b6b97_0
+  - tenacity=8.2.2=py311haa95532_0
   - texttable=1.6.7=pyhd8ed1ab_0
   - tinycss2=1.2.1=pyhd8ed1ab_0
   - tinyxml2=9.0.0=h0e60522_2
@@ -224,6 +240,7 @@ dependencies:
   - xz=5.4.2=h8cc25b3_0
   - yarl=1.9.2=py311ha68e1ae_0
   - zeromq=4.3.4=hd77b12b_0
+  - zipp=3.16.2=pyhd8ed1ab_0
   - zlib=1.2.13=hcfcfb64_5
   - zstd=1.5.5=hd43e919_0
-prefix: C:\Users\ashe\miniconda3\envs\condaVENV_GANGLIA_v03
+prefix: C:\Users\ashe\miniconda3\envs\condaVENV_GANGLIA_v04

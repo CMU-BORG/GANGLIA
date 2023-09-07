@@ -86,4 +86,5 @@ conda upgrade Pillow
   - Removed the need for jupyter-cadquery as it is unnecessary if already in a Python notebook
   - split the code into individually runnable sections
   - created a GUI to replace some hard-coded GANGLIA code bits and for easier user input experience
+  - initial progress towards 3D layouts
 
